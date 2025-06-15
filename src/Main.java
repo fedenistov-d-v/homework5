@@ -38,9 +38,9 @@ public class Main {
         System.out.println("Задача 4");
         int deliveryDistance = 95;
         int deliveryTime = 1;
-        if (deliveryDistance > 20) { deliveryTime++; }
-        if (deliveryDistance > 60) { deliveryTime++; }
-        if (deliveryDistance > 100) { deliveryTime = 0; }
+        if (deliveryDistance > 20)  deliveryTime++;
+        if (deliveryDistance > 60)  deliveryTime++;
+        if (deliveryDistance > 100) deliveryTime = 0;
         if (deliveryTime != 0 ) {
             System.out.printf("Потребуется дней: %d.%n", deliveryTime);
         } else {
